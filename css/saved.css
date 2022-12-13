@@ -28,7 +28,15 @@ body {
 .logo {
   font-size: 4.8rem;
   font-weight: 500;
-  color: #d38f22;
+  background: linear-gradient(
+    91.26deg,
+    #8ad4ec 0%,
+    #ef96ff 21.74%,
+    #ff56a9 54.03%,
+    #ffaa6c 85.28%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .profile {
